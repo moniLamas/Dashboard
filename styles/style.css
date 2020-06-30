@@ -1,0 +1,67 @@
+
+
+/* Colors 
+$sky-blue-crayola: #7bdff2;
+$celeste: #b2f7ef;
+$mint-cream: #eff7f6;
+$piggy-pink: #f7d6e0;
+$cotton-candy: #f2b5d4;
+*/
+
+html {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.container {
+    background-color: #7bdff2;
+    background: linear-gradient(150deg, #7bdff2, #b2f7ef, #eff7f6, #f7d6e0, #f2b5d4);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    border-radius: 18px;
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+} 
+
+h1 {
+    padding-left: 20px;
+    font-size: 50px;
+    border-bottom: solid 6px #7bdff2;
+}
+
+
+h4 {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+     
+}
+
+.table td, .table th {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f7d6e0;
+}
+
+.followers {
+    font-size: 4em;
+    font-weight: 700;
+}
+.people {
+    text-transform: uppercase;
+}
